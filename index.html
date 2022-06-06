@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="general__wrapper">
+        <div class="main__wrapper">
+            <main class="main underlined">
+                <div class="title__wrapper">
+                    <div class="title__item button__wrapper">
+                        <button class="burger__button" role="button" tabindex="1" id="menuButton" title="Menu">
+                            <div class="burger__button_dash"> </div>
+                            <div class="burger__button_dash"> </div>
+                            <div class="burger__button_dash"> </div>
+                        </button>
+                        <div class="burger_menu__wrapper shadow_wide">
+                            <div class="menu__wrapper">
+                                <div class="title__item underlined"><h3>content</h3></div>
+                                <a class="menu__item fc_white red menu__item_active" tabindex="2" href="#"><img src="/img/dashboard_gray.svg" alt="">dashboard</a>
+                                <a class="menu__item fc_grey" tabindex="3" href="user_profile.html"><img src="/img/account_gray.svg" alt="">user profile</a>
+                                <a class="menu__item fc_grey" tabindex="4" href="maps.html"><img src="/img/map_gray.svg" alt="">maps</a>
+                                <a class="menu__item fc_grey" tabindex="5" href="notifications.html"><img src="/img/notify_gray.svg" alt="">notifications</a>
+                                <a class="menu__item fc_grey" tabindex="6" href="support.html"><img src="/img/support_gray.svg" alt="">support</a>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="title__item"><h3>dashboard</h3></div>            
+                </div>
+                <div class="small_cards__wrapper">
+                    <div class="small_card shadow_wide">
+                        <div class="sm_icon__wrapper green shadow_narrow">
+                            <img src="/img/data_white.svg" alt="">
+                        </div>
+                        <div class="sm_top__content underlined">
+                            <p>Used Space</p>
+                            <p>45/50 GB</p>
+                        </div>
+                        <div class="sm_btm__content">
+                            <img src="/img/alert.png" alt="">
+                            <p style="text-align: right;">Get more space...</p>
+                        </div>
+                    </div>
+                    <div class="small_card shadow_wide">
+                        <div class="sm_icon__wrapper yellow shadow_narrow">
+                            <img src="/img/shop_white.svg" alt="">
+                        </div>
+                        <div class="sm_top__content underlined">
+                            <p>Revenue</p>
+                            <p>$ 34,245</p>
+                        </div>
+                        <div class="sm_btm__content">
+                            <img src="/img/calendar.png" alt="">
+                            <p style="text-align: right;">Last 24 Hours</p>
+                        </div>
+                    </div>
+                    <div class="small_card shadow_wide">
+                        <div class="sm_icon__wrapper blue shadow_narrow">
+                            <img src="/img/tag_white.svg" alt="">
+                        </div>
+                        <div class="sm_top__content underlined">
+                            <p>Fixed Issues</p>
+                            <p>75</p>
+                        </div>
+                        <div class="sm_btm__content">
+                            <img src="/img/down.png" alt="">
+                            <p style="text-align: right;">Tracked from Github</p>
+                        </div>
+                    </div>
+                    <div class="small_card shadow_wide">
+                        <div class="sm_icon__wrapper red shadow_narrow">
+                            <img src="/img/paperplane_white.svg" alt="">
+                        </div>
+                        <div class="sm_top__content underlined">
+                            <p>Followers</p>
+                            <p>+ 245</p>
+                        </div>
+                        <div class="sm_btm__content">
+                            <img src="/img/time.png" alt="">
+                            <p style="text-align: right;">Last updated</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="big_card__wrapper">
+                    <div class="big_card shadow_wide">
+                        <div class="bg_icon__wrapper green shadow_narrow">
+                            <img src="/img/graphics.svg" alt="">
+                        </div>
+                        <div class="bg_top__content underlined">
+                            <p>Daily Sales</p>
+                            <p>55% increase in today sales</p>
+                        </div>
+                        <div class="bg_btm__content">
+                            <img src="/img/time.png" alt="">
+                            <p style="text-align: right;">updated 4 minutes ago</p>
+                        </div>
+                    </div>
+                    <div class="big_card shadow_wide">
+                        <div class="bg_icon__wrapper yellow shadow_narrow">
+                            <img src="/img/graphics.svg" alt="">
+                        </div>
+                        <div class="bg_top__content underlined">
+                            <p>Email Subscriptions</p>
+                            <p>Last Compaign Perfomance</p>
+                        </div>
+                        <div class="bg_btm__content">
+                            <img src="/img/time.png" alt="">
+                            <p style="text-align: right;">campaign sent 2 days ago</p>
+                        </div>
+                    </div>
+                    <div class="big_card shadow_wide">
+                        <div class="bg_icon__wrapper blue shadow_narrow">
+                            <img src="/img/graphics.svg" alt="">
+                        </div>
+                        <div class="bg_top__content underlined">
+                            <p>Compaleted stats</p>
+                            <p>Last Compaign Perfomance</p>
+                        </div>
+                        <div class="bg_btm__content">
+                            <img src="/img/time.png" alt="">
+                            <p style="text-align: right;">campaign event 2 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="other_cards__wrapper">
+                    <div class="task_card shadow_wide">
+                        <div class="ts_controls__wrapper yellow fc_white shadow_narrow">
+                            <p class="sm">Tasks:</p>
+                            <button class="ts_control__button sm" role="button">
+                                <img src="img/bug.svg" alt="">
+                                <p class="fc_white">Bugs</p>
+                            </button>
+                            <button class="ts_control__button sm" role="button">
+                                <img src="img/web.svg" alt="">
+                                <p class="fc_white">Website</p>
+                            </button>
+                            <button class="ts_control__button sm" role="button">
+                                <img src="img/cloud.svg" alt="">
+                                <p class="fc_white">Server</p>
+                            </button>  
+                        </div>
+                        <div class="ts_content underlined">               
+                            <div class="row">
+                                <input type="checkbox" id="check_1" name="check_1" value="Sign">
+                            </div>
+                            <div class="row"><p class="sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis ullam accusantium assumenda quo ut dolorem libero suscipit! Similique, vero. </p></div>
+                            <div class="row"><img src="img/edit.png" alt=""></div>
+                            <div class="row"><img src="img/remove.png" alt=""></div>
+                        </div>
+                        <div class="ts_content underlined">               
+                            <div class="row">
+                                <input type="checkbox" id="check_1" name="check_1" value="Sign">
+                            </div>
+                            <div class="row"><p class="sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis ullam accusantium assumenda quo ut dolorem libero suscipit! Similique, vero. </p></div>
+                            <div class="row"><img src="img/edit.png" alt=""></div>
+                            <div class="row"><img src="img/remove.png" alt=""></div>
+                        </div>
+                        <div class="ts_content underlined">               
+                            <div class="row">
+                                <input type="checkbox" id="check_1" name="check_1" value="Sign">
+                            </div>
+                            <div class="row"><p class="sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis ullam accusantium assumenda quo ut dolorem libero suscipit! Similique, vero. </p></div>
+                            <div class="row"><img src="img/edit.png" alt=""></div>
+                            <div class="row"><img src="img/remove.png" alt=""></div>
+                        </div>
+                        <div class="ts_content">               
+                            <div class="row">
+                                <input type="checkbox" id="check_1" name="check_1" value="Sign">
+                            </div>
+                            <div class="row"><p class="sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nobis ullam accusantium assumenda quo ut dolorem libero suscipit! Similique, vero. </p></div>
+                            <div class="row"><img src="img/edit.png" alt=""></div>
+                            <div class="row"><img src="img/remove.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="stat_card shadow_wide">
+                        <div class="card_title blue fc_white shadow_narrow">
+                            <p>Employees Stats</p>
+                            <p class="sm">New employees on 20th may 2022</p>  
+                        </div>
+                        <div class="st_content head-row underlined">
+                            <div class="row"><p>ID</p></div>
+                            <div class="row"><p>Name</p></div>
+                            <div class="row"><p>Salary</p></div>
+                            <div class="row"><p>Country</p></div>
+                        </div>
+                        <div class="st_content underlined">
+                            <div class="row"><p>1</p></div>
+                            <div class="row"><p>Dakota Rice</p></div>
+                            <div class="row"><p>$36.738</p></div>
+                            <div class="row"><p>Niger</p></div>
+                        </div>
+                        <div class="st_content underlined">
+                            <div class="row"><p>1</p></div>
+                            <div class="row"><p>Dakota Rice</p></div>
+                            <div class="row"><p>$36.738</p></div>
+                            <div class="row"><p>Niger</p></div>
+                        </div>
+                        <div class="st_content underlined">
+                            <div class="row"><p>1</p></div>
+                            <div class="row"><p>Dakota Rice</p></div>
+                            <div class="row"><p>$36.738</p></div>
+                            <div class="row"><p>Niger</p></div>
+                        </div>
+                        <div class="st_content">
+                            <div class="row"><p>1</p></div>
+                            <div class="row"><p>Dakota Rice</p></div>
+                            <div class="row"><p>$36.738</p></div>
+                            <div class="row"><p>Niger</p></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <ul class="footer__links">
+                    <li class="footer__links_item"><a href="#">about</a></li>
+                    <li class="footer__links_item"><a href="#">blog</a></li>
+                    <li class="footer__links_item"><a href="#">licenses</a></li>
+                </ul>
+                <div>
+                    <p>2022 - Made in Ukraine</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
